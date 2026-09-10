@@ -1,0 +1,27 @@
+[theme]
+base = "light"
+primaryColor = "#7C3548"
+backgroundColor = "#FAF7F1"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#221E1A"
+font = "sans serif"
+# Ajustes de contraste/legibilidad (misma paleta OWFIT, retonada a un tono
+# editorial cálido): borde visible de inputs/tarjetas/tablas y esquinas
+# ligeramente redondeadas.
+linkColor = "#7C3548"
+borderColor = "#E1D9C8"
+dataframeBorderColor = "#E1D9C8"
+dataframeHeaderBackgroundColor = "#EFE6D6"
+showWidgetBorder = true
+baseRadius = "0.85rem"
+
+[server]
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# Oculta el botón "Deploy" y el menú de desarrollador de Streamlit: de cara
+# al usuario de negocio esto es un producto terminado, no una app en curso.
+toolbarMode = "minimal"

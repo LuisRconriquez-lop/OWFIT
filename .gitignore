@@ -1,0 +1,11 @@
+# Datos confidenciales de OWFIT: nunca se versionan
+data/interno/
+*_REAL*.xlsx
+*_CONFIDENCIAL*.xlsx
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.streamlit/secrets.toml
